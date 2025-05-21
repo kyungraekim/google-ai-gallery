@@ -28,7 +28,7 @@
         "topK": 64,
         "topP": 0.95,
         "temperature": 1.0,
-        "accelerators": "gpu,cpu"
+        "accelerators": "cpu"
       },
       "taskTypes": ["llm_chat", "llm_prompt_lab", "llm_ask_image"]
     },
