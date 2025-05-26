@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "name": "MyGenieLLM-1B-Q4",
+      "modelId": "vendor/my-genie-llm-1b-q4-preview",
+      "modelFile": "my_genie_model_directory",
+      "description": "A hypothetical Genie-accelerated LLM, 4-bit quantized. Optimized for Qualcomm NPUs.",
+      "sizeInBytes": 1000000000,
+      "version": "20250701",
+      "llmSupportImage": false,
+      "defaultConfig": {
+        "topK": 32,
+        "topP": 0.9,
+        "temperature": 0.7,
+        "accelerators": "genie"
+      },
+      "taskTypes": ["llm_chat", "llm_prompt_lab"]
+    }
+  ]
+}

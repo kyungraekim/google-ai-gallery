@@ -29,7 +29,7 @@ data class ModelDataFile(
 )
 
 enum class Accelerator(val label: String) {
-  CPU(label = "CPU"), GPU(label = "GPU")
+  CPU(label = "CPU"), GPU(label = "GPU"), GENIE(label = "Genie")
 }
 
 const val IMPORTS_DIR = "__imports"

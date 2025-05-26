@@ -71,6 +71,8 @@ data class AllowedModel(
             accelerators.add(Accelerator.CPU)
           } else if (item == "gpu") {
             accelerators.add(Accelerator.GPU)
+          } else if (item == "genie") {
+            accelerators.add(Accelerator.GENIE)
           }
         }
       }
